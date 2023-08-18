@@ -1,11 +1,12 @@
-name: first-github-action-workflow
+name: first-workflow
 on: push
 jobs:
   job-name:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "First Job Step First"        
+        uses: actions/checkout@v3
+      - run: echo "First Job Step First"        
   my-second-job:
     runs-on: ubuntu-latest
     steps:
