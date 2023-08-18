@@ -11,4 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Second Job Step First"
+        uses: actions/checkout@v3
+      - run: echo "Second Job Step First"  
+        
