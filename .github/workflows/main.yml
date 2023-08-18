@@ -12,5 +12,6 @@ jobs:
     steps:
       - name: my-step
         uses: actions/checkout@v3
-      - run: echo "Second Job Step First"  
+      - run: echo "Second Job Step First"
+      - run: echo "Second step 2"
         
