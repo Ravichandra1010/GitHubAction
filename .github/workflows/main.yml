@@ -18,4 +18,5 @@ jobs:
       - name: List files in the repository
         run: |
           Write-Host "TFS URL:"
+          shell:cmd
       - run: echo "🍏 This job's status is ${{ job.status }}."
