@@ -7,7 +7,7 @@ jobs:
       - name: my-step
         run: echo "First Job Step First"        
   my-second-job:
-    runs-on: ubuntu-latest1
+    runs-on: ubuntu-latest
     steps:
       - name: my-step
         run: echo "Second Job Step First"
