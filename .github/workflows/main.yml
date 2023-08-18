@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest1
     steps:
       - name: my-step
-      - run: echo "Second Job Step First"
+        run: echo "Second Job Step First"
