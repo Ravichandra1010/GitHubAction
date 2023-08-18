@@ -1,13 +1,13 @@
 name: first-github-action-workflow
 on: push
 jobs:
-  my-first-job:
+  job-name:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "First Job Step First"        
+      - run: echo "First Job Step First"        
   my-second-job:
     runs-on: ubuntu-latest1
     steps:
       - name: my-step
-        run: echo "Second Job Step First"
+      - run: echo "Second Job Step First"
